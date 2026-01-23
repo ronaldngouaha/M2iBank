@@ -17,6 +17,13 @@ public class SealedClasTest {
         dog.makeSound();
 
 
+    Employe employe= new Employe("Doe", "John");
+
+    System.out.println("Employee: "+employe.prenom());
+    System.out.println("Employee: "+employe.toString());
+
+
+
     }
 
 
@@ -31,3 +38,4 @@ class Python extends Cat{
         System.out.println("I am a Python");
     }
 }
+
