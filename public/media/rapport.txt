@@ -1,0 +1,12 @@
+Hello Guys
+
+Path: Représente un chemin vers un fichier ou un dossier
+Files : Contient des méthodes utilitaires pour lire, écrire, copier, etc.
+Paths: Permet de créer des objets Path
+DirectoryStream : Permet de parcourir un répertoire
+FileVisitor: Interface pour parcourir une arborescence
+StandardWatchEventKinds: Pour surveiller les changements dans les répertoires
+Helloword, New line added
+/n Helloword, New line added
+
+ Helloword, New line added

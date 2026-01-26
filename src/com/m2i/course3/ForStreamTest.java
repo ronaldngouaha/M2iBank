@@ -16,6 +16,12 @@ public class ForStreamTest {
         school.add("Saker");
         school.add("Savio");
 
+
+
+
+
+
+
         school.forEach(nombre ->
                 {
                     System.out.println("Valeur : " + nombre);

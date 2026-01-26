@@ -20,6 +20,7 @@ Se déclarent en utilisant trois points (...) après le type d'argument dans la 
     }
 
     // Méthode utilisant varargs
+    // le var argument doit etre le dernier parametre, si on veut ajouter d'autres param, ils seront passer avant le var arguement
     public static void afficherNombres(int... nombres) {
         for (int nombre : nombres) {
             System.out.println(nombre);

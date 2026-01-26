@@ -4,6 +4,8 @@ public class EnumListTest {
 
     public static void main(String[] args) {
         Saison saison = Saison.HIVER;
+     // saison.ordinal() recupere la position dans l'ennumeration
+      //  saison.name() renvoit le nom de l'enum dans la liste
         System.out.println("Saison : " + saison);
         System.out.println("Température : " + saison.getTemperature());
     }
