@@ -12,7 +12,7 @@ public class Compte {
 
 
     static class Person {
-        public void definirAge(int age) {
+        public void definirAge(int age) throws CustomizeException.DonneeInvalideException {
             if (age < 0) {
                 throw new CustomizeException.DonneeInvalideException("L'âge ne peut pas être négatif");
             }

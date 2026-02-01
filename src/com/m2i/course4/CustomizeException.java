@@ -8,7 +8,7 @@ public class CustomizeException {
         }
     }
 
-      public    static class DonneeInvalideException extends RuntimeException {
+      public    static class DonneeInvalideException extends Throwable {
              DonneeInvalideException(String message) {
                 super(message);
             }

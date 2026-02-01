@@ -1,7 +1,7 @@
 package com.m2i.course4;
 
 public class TryCatchFinally {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CustomizeException.DonneeInvalideException {
         try {
             int result = 10 / 0;
         } catch (ArithmeticException e) {
